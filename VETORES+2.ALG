@@ -7,7 +7,13 @@ Inicio
 
    para indice de 1 ate 10 faca
         escreval("Número ", indice)
-        leia(numeros[i])
+        leia(numeros[indice])
+   fimPara
+   
+   aux <- 11
+   
+   para indice de 1 ate 10 faca
+        numerosReversos[aux-indice] <- numeros[indice]
    fimPara
    
 
